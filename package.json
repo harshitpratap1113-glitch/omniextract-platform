@@ -1,0 +1,23 @@
+{
+  "name": "omniextract-pro-api",
+  "version": "2.4.0",
+  "description": "Universal Media & AI Extraction Micro-API on Cloudflare Workers & RapidAPI",
+  "main": "src/worker.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "keywords": [
+    "rapidapi",
+    "scraper",
+    "ai",
+    "cloudflare-workers",
+    "social-media-downloader",
+    "markdown-parser"
+  ],
+  "author": "Harshit Pratap",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.78.0"
+  }
+}
